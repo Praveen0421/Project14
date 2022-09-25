@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* container */
+.container {
+  display: flex;
+  width: 100%;
+  height: 960px;
+  background-color: #f5f2f0;
+  overflow: hidden;
+}
+/* bar */
+.bar {
+  height: 40px;
+  display: none;
+}
+/*-----------*/
+/*-----logo------*/
+/*-----------*/
+.left-side .logo {
+  position: absolute;
+  height: 38px;
+  top: 78px;
+  left: 78px;
+  z-index: 2;
+}
+/*-----------*/
+/*-----girl-image-left-side------*/
+/*-----------*/
+.girl {
+  position: relative;
+  left: -40px;
+  width: 685px;
+  height: 960px;
+} /*-----------*/
+/*-----right-side------*/
+/*-----------*/
+.right-side {
+  position: relative;
+  right: 82px;
+  width: 1000px;
+  background-color: #f5f2f0;
+}
+header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+nav {
+  position: relative;
+  padding-top: 81px;
+  display: flex;
+  align-items: center;
+}
+/*-----------*/
+/*-----a big line in the navbar------*/
+/*-----------*/
+nav .line {
+  position: absolute;
+  top: 93px;
+  left: 55px;
+  width: 400px;
+  height: 0px;
+  border: 0.5px solid #000;
+}
+/*-----------*/
+/*-----ul-items------*/
+/*-----------*/
+.items {
+  position: relative;
+  left: 450px;
+  display: flex;
+}
+/*-----------*/
+/*-----li-items------*/
+/*-----------*/
+
+nav .list-item {
+  list-style-type: none;
+  margin: 0px 45px;
+  font-family: "Poppins", sans-serif;
+  color: #868585;
+  font: 100;
+}
+/*-----------*/
+/*-----home------*/
+/*-----------*/
+nav .item1 {
+  color: #000;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+/*-----------*/
+/*----- text in heading section------*/
+/*-----------*/
+.heading .text {
+  font-size: 143px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+/*-----------*/
+/*------crea-----*/
+/*-----------*/
+.heading .special-border {
+  position: relative;
+  color: #f5f2f0;
+  top: 28px;
+  left: 55px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #333333;
+}
+/*-----------*/
+/*-----tivity------*/
+/*-----------*/
+.heading .text-grey-black {
+  position: relative;
+  top: -18px;
+  left: 215px;
+  color: #333333;
+}
+/*-----------*/
+/*-----last three words-----*/
+/*-----------*/
+.heading .text-size {
+  position: relative;
+  top: -60px;
+  left: 250px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #868585;
+}
+.heading .ingredient {
+  position: relative;
+  top: -195px;
+  left: 678px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #868585;
+}
+
+/*-----------*/
+/*----- icons in heading section------*/
+/*-----------*/
+.icons {
+  position: relative;
+  top: 22px;
+  left: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+}
+
+.icon {
+  margin: 28px 0px;
+}
+/*------facbook-----*/
+.icon3 {
+  font-size: 22px;
+}
+/* responsive-girl */
+.reponsive-girl {
+  display: none;
+}
+/*-----------*/
+/*-----heading section button------*/
+/*-----------*/
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.package-btn {
+  position: relative;
+  bottom: 180px;
+  left: 10px;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: poppins;
+  padding: 20px 65px;
+  background-color: #333333;
+  color: #d7d6d6;
+}
+
+/*-----------*/
+/*-----section------*/
+/*-----------*/
+section {
+  position: relative;
+  bottom: 150px;
+  height: 395px;
+
+  display: flex;
+  flex-direction: row;
+}
+/*-----------*/
+/*-----a straight line on left side------*/
+/*-----------*/
+section .line2 {
+  position: absolute;
+  left: 75px;
+  bottom: -3px;
+  height: 355px;
+  border: 0.5px solid #868585;
+}
+/*-----------*/
+/*-----dots------*/
+/*-----------*/
+.dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 66px;
+  top: 5px;
+}
+
+.dot {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  margin: 28px 0px;
+  background-color: #868585;
+  border-radius: 50px;
+}
+/*-----top-big-dot ------*/
+
+.dot1 {
+  width: 18px;
+  height: 18px;
+  background-color: #333333;
+  border-radius: 50px;
+}
+/*-----------*/
+/* ----content-lists---- */
+/*-----------*/
+.content-lists {
+  position: relative;
+  top: 8px;
+  left: 95px;
+  display: flex;
+  flex-direction: column;
+}
+.content-list {
+  position: relative;
+  margin: 18px 0px;
+  font-family: poppins;
+  font-size: 22px;
+  list-style-type: none;
+  color: #868585;
+}
+.content1 {
+  color: #333333;
+}
+
+/*-----------*/
+/*-----dance-content------*/
+/*-----------*/
+.dance-content {
+  display: flex;
+  flex-direction: column;
+}
+.dance-content h1 {
+  position: relative;
+  left: 200px;
+  top: 20px;
+  font-family: "Nanum Myeongjo", serif;
+  width: 80px;
+  height: 80px;
+  font-size: 130px;
+  font-weight: 900;
+  color: #333333;
+}
+.dance-content h2 {
+  position: relative;
+  bottom: -10px;
+  left: 200px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+.dance-content .dance-img {
+  position: relative;
+  top: 30px;
+  left: 200px;
+  width: 520px;
+}
+/*------------*/
+/*-----arrow-------*/
+/*------------*/
+.arrow {
+  position: absolute;
+  height: 135px;
+  right: -30px;
+  bottom: 80px;
+}

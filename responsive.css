@@ -1,0 +1,750 @@
+@media only screen and (max-width: 1280px) {
+  /*-----------*/
+  /*-----logo------*/
+  /*-----------*/
+  .left-side .logo {
+    position: absolute;
+    height: 38px;
+    top: 78px;
+    left: 78px;
+    z-index: 2;
+  }
+  /*-----------*/
+  /*-----girl-image-left-side------*/
+  /*-----------*/
+  .girl {
+    position: relative;
+    left: -40px;
+    width: 485px;
+    height: 960px;
+  }
+  /*-----------*/
+  /*-----a big line in the navbar------*/
+  /*-----------*/
+  nav .line {
+    left: 35px;
+    width: 300px;
+  }
+  /*-----------*/
+  /*-----ul-items------*/
+  /*-----------*/
+  .items {
+    position: relative;
+    left: 350px;
+    display: flex;
+  }
+  /*-----------*/
+  /*-----li-items------*/
+  /*-----------*/
+
+  nav .list-item {
+    margin: 0px 35px;
+  }
+
+  /*-----------*/
+  /*----- text in heading section------*/
+  /*-----------*/
+  .heading .text {
+    font-size: 125px;
+  }
+  /*-----------*/
+  /*------crea-----*/
+  /*-----------*/
+  .heading .special-border {
+    left: 45px;
+  }
+  /*-----------*/
+  /*-----tivity------*/
+  /*-----------*/
+  .heading .text-grey-black {
+    left: 205px;
+  }
+  /*-----------*/
+  /*-----last three words-----*/
+  /*-----------*/
+  .heading .text-size {
+    top: -50px;
+    left: 226px;
+    font-size: 28px;
+  }
+  .heading .ingredient {
+    top: -175px;
+    left: 600px;
+    font-size: 28px;
+  }
+
+  /*-----------*/
+  /*----- icons in heading section------*/
+  /*-----------*/
+  .icons {
+    top: 18px;
+    left: 370px;
+    font-size: 22px;
+  }
+
+  .icon {
+    margin: 22px 0px;
+  }
+  /*------facbook-----*/
+  .icon3 {
+    font-size: 22px;
+  }
+  /*-----------*/
+  /*-----heading section button------*/
+  /*-----------*/
+  .package-btn {
+    bottom: 160px;
+    left: 50px;
+    font-size: 15px;
+    padding: 15px 45px;
+  }
+  /*-----------*/
+  /*-----section------*/
+  /*-----------*/
+  section {
+    bottom: 50px;
+  }
+  /*-----------*/
+  /*-----a straight line on left side------*/
+  /*-----------*/
+  section .line2 {
+    left: 35px;
+  }
+  /*-----------*/
+  /*-----dots------*/
+  /*-----------*/
+  .dots {
+    left: 26px;
+  }
+
+  /*-----------*/
+  /* ----content-lists---- */
+  /*-----------*/
+  .content-lists {
+    top: 10px;
+    left: 45px;
+  }
+  .content-list {
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+
+  /*-----------*/
+  /*-----dance-content------*/
+  /*-----------*/
+
+  .dance-content h1 {
+    left: 100px;
+    font-size: 120px;
+  }
+  .dance-content h2 {
+    left: 100px;
+    font-size: 20px;
+  }
+  .dance-content .dance-img {
+    left: 100px;
+    width: 480px;
+  }
+  /*------------*/
+  /*-----arrow-------*/
+  /*------------*/
+  .arrow {
+    height: 125px;
+    right: -50px;
+    bottom: 90px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /*-----------*/
+  /*-----a big line in the navbar------*/
+  /*-----------*/
+  nav .line {
+    width: 200px;
+  }
+  /*-----------*/
+  /*-----ul-items------*/
+  /*-----------*/
+  .items {
+    left: 250px;
+  }
+  /*-----------*/
+  /*-----li-items------*/
+  /*-----------*/
+
+  nav .list-item {
+    margin: 0px 15px;
+  }
+
+  /*-----------*/
+  /*----- text in heading section------*/
+  /*-----------*/
+  .heading .text {
+    position: relative;
+    top: 68px;
+    font-size: 85px;
+  }
+  /*-----------*/
+  /*------crea-----*/
+  /*-----------*/
+  .heading .special-border {
+    left: 15px;
+  }
+  /*-----------*/
+  /*-----tivity------*/
+  /*-----------*/
+  .heading .text-grey-black {
+    top: 15px;
+    left: 105px;
+  }
+  /*-----------*/
+  /*-----last three words-----*/
+  /*-----------*/
+  .heading .text-size {
+    top: -10px;
+    left: 116px;
+    font-size: 22px;
+  }
+  .heading .ingredient {
+    top: -92px;
+    left: 370px;
+    font-size: 22px;
+  }
+
+  /*-----------*/
+  /*----- icons in heading section------*/
+  /*-----------*/
+  .icons {
+    top: 18px;
+    left: 270px;
+    font-size: 22px;
+  }
+
+  .icon {
+    margin: 22px 0px;
+  }
+  /*------facbook-----*/
+  .icon3 {
+    font-size: 22px;
+  }
+  /*-----------*/
+  /*-----heading section button------*/
+  /*-----------*/
+  .package-btn {
+    bottom: 0px;
+    left: 50px;
+    font-size: 15px;
+    padding: 15px 45px;
+  }
+  /*-----------*/
+  /*-----section------*/
+  /*-----------*/
+  section {
+    bottom: -170px;
+  }
+  /*-----------*/
+  /*-----a straight line on left side------*/
+  /*-----------*/
+  section .line2 {
+    height: 350px;
+    left: 25px;
+  }
+  /*-----------*/
+  /*-----dots------*/
+  /*-----------*/
+  .dots {
+    top: 20px;
+    left: 16px;
+  }
+  .dot {
+    margin: 20px 0px;
+  }
+  /*-----------*/
+  /* ----content-lists---- */
+  /*-----------*/
+  .content-lists {
+    top: 28px;
+    left: 25px;
+  }
+  .content-list {
+    margin: 15px 0px;
+    font-size: 15px;
+  }
+
+  /*-----------*/
+  /*-----dance-content------*/
+  /*-----------*/
+
+  .dance-content h1 {
+    top: 40px;
+    left: 40px;
+    font-size: 85px;
+  }
+  .dance-content h2 {
+    left: 40px;
+    font-size: 15px;
+  }
+  .dance-content .dance-img {
+    left: 40px;
+    width: 380px;
+  }
+  /*------------*/
+  /*-----arrow-------*/
+  /*------------*/
+  .arrow {
+    height: 85px;
+    right: -60px;
+    bottom: 150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 1920px;
+  }
+  /*-----------*/
+  /*-----logo------*/
+  /*-----------*/
+  .left-side .logo {
+    height: 40px;
+    top: 48px;
+    left: 45px;
+    z-index: 2;
+  }
+  /* bar */
+  .bar {
+    position: relative;
+    display: block;
+    height: 40px;
+    left: 670px;
+    top: 40px;
+  }
+  /*-----------*/
+  /*-----girl-image-left-side------*/
+  /*-----------*/
+  .girl {
+    display: none;
+  } /*-----------*/
+  /*-----right-side------*/
+  /*-----------*/
+  .right-side {
+    position: relative;
+    right: 0px;
+    width: 100%;
+  }
+  .items {
+    display: none;
+  }
+  nav {
+    padding-top: 0px;
+  }
+  /*-----------*/
+  /*-----a big line in the navbar------*/
+  /*-----------*/
+  nav .line {
+    top: 80px;
+    left: 225px;
+    width: 370px;
+  }
+
+  /*-----------*/
+  /*----- text in heading section------*/
+  /*-----------*/
+  .heading .text {
+    left: 60px;
+    font-size: 103px;
+  }
+  /*-----------*/
+  /*------crea-----*/
+  /*-----------*/
+  .heading .special-border {
+    top: 28px;
+    left: 20px;
+  }
+  /*-----------*/
+  /*-----tivity------*/
+  /*-----------*/
+  .heading .text-grey-black {
+    top: 8px;
+    left: 70px;
+  }
+  /*-----------*/
+  /*-----last three words-----*/
+  /*-----------*/
+  .heading .text-size {
+    top: -30px;
+    left: 90px;
+    font-size: 25px;
+  }
+  .heading .ingredient {
+    top: -125px;
+    left: 395px;
+    font-size: 25px;
+  }
+
+  /*-----------*/
+  /*----- icons in heading section------*/
+  /*-----------*/
+  .icons {
+    top: 55px;
+    left: 300px;
+    font-size: 30px;
+  }
+
+  .icon {
+    margin: 15px 0px;
+  }
+  /*------facbook-----*/
+  .icon3 {
+    font-size: 25px;
+  }
+  /* girl */
+  .reponsive-girl {
+    display: block;
+    height: 600px;
+  }
+  /*-----------*/
+  /*-----heading section button------*/
+  /*-----------*/
+
+  .package-btn {
+    bottom: -30px;
+    left: -250px;
+    font-size: 15px;
+    padding: 15px 35px;
+  }
+
+  /*-----------*/
+  /*-----section------*/
+  /*-----------*/
+  section {
+    position: relative;
+    bottom: 150px;
+    height: 395px;
+    display: flex;
+    flex-direction: row;
+  }
+  /*-----------*/
+  /*-----a straight line on left side------*/
+  /*-----------*/
+  section .line2 {
+    left: 115px;
+    bottom: -600px;
+  }
+  /*-----------*/
+  /*-----dots------*/
+  /*-----------*/
+  .dots {
+    left: 106px;
+    top: 610px;
+  }
+
+  .dot {
+    margin: 32px 0px;
+  }
+
+  /*-----------*/
+  /* ----content-lists---- */
+  /*-----------*/
+
+  .dance-content h1 {
+    top: 200px;
+    left: -55px;
+    font-size: 125px;
+  }
+  .dance-content h2 {
+    top: 200px;
+    left: -50px;
+    font-size: 25px;
+  }
+  .content-lists {
+    top: 612px;
+    left: 135px;
+  }
+  .content-list {
+    margin: 26px 0px;
+    font-size: 18px;
+  }
+
+  .dance-content .dance-img {
+    top: 230px;
+    left: -50px;
+    width: 520px;
+  }
+  /*------------*/
+  /*-----arrow-------*/
+  /*------------*/
+  .arrow {
+    position: absolute;
+    height: 135px;
+    right: 120px;
+    bottom: -380px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .container {
+    width: 100%;
+    height: 1660px;
+  }
+  /*-----------*/
+  /*-----logo------*/
+  /*-----------*/
+  .left-side .logo {
+    height: 32px;
+    top: 48px;
+    left: 35px;
+    z-index: 2;
+  }
+  /* bar */
+  .bar {
+    position: relative;
+    display: block;
+    height: 30px;
+    left: 320px;
+    top: 40px;
+  }
+  /*-----------*/
+  /*-----girl-image-left-side------*/
+  /*-----------*/
+  .girl {
+    display: none;
+  } /*-----------*/
+  /*-----right-side------*/
+  /*-----------*/
+  .right-side {
+    position: relative;
+    right: 0px;
+    width: 100%;
+  }
+  .items {
+    display: none;
+  }
+  nav {
+    padding-top: 0px;
+  }
+  /*-----------*/
+  /*-----a big line in the navbar------*/
+  /*-----------*/
+  nav .line {
+    top: 80px;
+    left: 145px;
+    width: 170px;
+  }
+
+  /*-----------*/
+  /*----- text in heading section------*/
+  /*-----------*/
+  .heading .text {
+    left: -20px;
+    font-size: 73px;
+  }
+  /*-----------*/
+  /*------crea-----*/
+  /*-----------*/
+  .heading .special-border {
+    top: 28px;
+    left: 20px;
+  }
+  /*-----------*/
+  /*-----tivity------*/
+  /*-----------*/
+  .heading .text-grey-black {
+    top: 8px;
+    left: 70px;
+  }
+  /*-----------*/
+  /*-----last three words-----*/
+  /*-----------*/
+  .heading .text-size {
+    top: -20px;
+    left: 80px;
+    font-size: 20px;
+  }
+  .heading .ingredient {
+    top: -85px;
+    left: 295px;
+    font-size: 20px;
+  }
+
+  /*-----------*/
+  /*----- icons in heading section------*/
+  /*-----------*/
+  .icons {
+    top: 55px;
+    left: 90px;
+    font-size: 18px;
+  }
+
+  .icon {
+    margin: 10px 0px;
+  }
+  /*------facbook-----*/
+  .icon3 {
+    font-size: 22px;
+  }
+  /* girl */
+  .reponsive-girl {
+    display: block;
+    height: 500px;
+  }
+  /*-----------*/
+  /*-----heading section button------*/
+  /*-----------*/
+
+  .package-btn {
+    bottom: -30px;
+    left: -100px;
+    font-size: 15px;
+    padding: 15px 35px;
+  }
+  /* content */
+  .dance-content h1 {
+    top: 220px;
+    left: -125px;
+    font-size: 100px;
+  }
+  .dance-content h2 {
+    left: -120px;
+    font-size: 16px;
+  }
+  /*-----------*/
+  /*-----section------*/
+  /*-----------*/
+  section {
+    position: relative;
+    bottom: 150px;
+    height: 395px;
+
+    display: flex;
+    flex-direction: row;
+  }
+  /*-----------*/
+  /*-----a straight line on left side------*/
+  /*-----------*/
+  section .line2 {
+    left: 75px;
+    bottom: -600px;
+  }
+  /*-----------*/
+  /*-----dots------*/
+  /*-----------*/
+  .dots {
+    left: 66px;
+    top: 600px;
+  }
+
+  .dot {
+    margin: 28px 0px;
+  }
+
+  /*-----------*/
+  /* ----content-lists---- */
+  /*-----------*/
+  .content-lists {
+    top: 612px;
+    left: 95px;
+  }
+  .content-list {
+    margin: 18px 0px;
+    font-size: 18px;
+  }
+
+  .dance-content .dance-img {
+    top: 230px;
+    left: -190px;
+    width: 520px;
+  }
+  /*------------*/
+  /*-----arrow-------*/
+  /*------------*/
+  .arrow {
+    position: absolute;
+    height: 135px;
+    right: 0px;
+    bottom: -370px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .container {
+    width: 100%;
+    height: 1580px;
+  }
+  /*-----------*/
+  /*-----logo------*/
+  /*-----------*/
+  .left-side .logo {
+    left: 25px;
+  }
+  /* bar */
+  .bar {
+    left: 270px;
+  }
+
+  /*-----------*/
+  /*-----a big line in the navbar------*/
+  /*-----------*/
+  nav .line {
+    left: 145px;
+    width: 100px;
+  }
+
+  /*-----------*/
+  /*----- text in heading section------*/
+  /*-----------*/
+  .heading .text {
+    left: -20px;
+    font-size: 53px;
+  }
+  /*-----------*/
+  /*------crea-----*/
+  /*-----------*/
+  .heading .special-border {
+    top: 18px;
+    left: 20px;
+  }
+  /*-----------*/
+  /*-----tivity------*/
+  /*-----------*/
+  .heading .text-grey-black {
+    top: 0px;
+    left: 70px;
+  }
+  /*-----------*/
+  /*-----last three words-----*/
+  /*-----------*/
+  .heading .text-size {
+    top: -20px;
+    left: 78px;
+    font-size: 16px;
+  }
+  .heading .ingredient {
+    top: -68px;
+    left: 235px;
+    font-size: 16px;
+  }
+
+  /*-----------*/
+  /*----- icons in heading section------*/
+  /*-----------*/
+  .icons {
+    top: 55px;
+    left: 80px;
+    font-size: 18px;
+  }
+
+  .icon {
+    margin: 5px 0px;
+  }
+
+  /*-----------*/
+  /*-----dance-content------*/
+  /*-----------*/
+  .dance-content h1 {
+    left: -120px;
+    top: 220px;
+  }
+  .dance-content h2 {
+    bottom: -200px;
+    left: -120px;
+    font-size: 14px;
+  }
+}
